@@ -1,18 +1,18 @@
-# Contributing to KeywordEngine
+# Contributing to RandomGenerator
 
-Thank you for your interest in contributing to **KeywordEngine** ! 
+Thank you for your interest in contributing to **RandomGenerator** ! 
 
 We welcome contributions from anyone, regardless of their background or level of experience.
 
 ## How to Contribute
 
-There are many ways you can contribute to KeywordEngine:
+There are many ways you can contribute to RandomGenerator:
 
-- **Report bugs**: If you find a bug in the project, please report it by [opening an issue](https://github.com/VikashChauhan51/keyword-engine/issues/new) on our GitHub repository. Be sure to include as much detail as possible, including steps to reproduce the bug, so we can fix it quickly.
+- **Report bugs**: If you find a bug in the project, please report it by [opening an issue](https://github.com/VikashChauhan51/random-generator/issues/new) on our GitHub repository. Be sure to include as much detail as possible, including steps to reproduce the bug, so we can fix it quickly.
 
-- **Request features**: If there's a feature you'd like to see in KeywordEngine, you can request it by [opening an issue](https://github.com/VikashChauhan51/keyword-engine/issues/new) on our GitHub repository. Be sure to describe the feature in detail and explain why it would be useful.
+- **Request features**: If there's a feature you'd like to see in RandomGenerator, you can request it by [opening an issue](https://github.com/VikashChauhan51/random-generator/issues/new) on our GitHub repository. Be sure to describe the feature in detail and explain why it would be useful.
 
-- **Submit pull requests**: If you've made changes to the code that you'd like us to include in the project, you can submit a [pull request](https://github.com/VikashChauhan51/keyword-engine/pulls) on our GitHub repository. Be sure to follow our [code style guidelines](#code-style-guidelines) and include tests for any new features or bug fixes.
+- **Submit pull requests**: If you've made changes to the code that you'd like us to include in the project, you can submit a [pull request](https://github.com/VikashChauhan51/random-generator/pulls) on our GitHub repository. Be sure to follow our [code style guidelines](#code-style-guidelines) and include tests for any new features or bug fixes.
 
 
 ## Code Style Guidelines

@@ -1,6 +1,6 @@
 # Authors
 
-This file lists the main authors of the **KeywordEngine** project.
+This file lists the main authors of the **RandomGenerator** project.
 
 ## Maintainers
 
