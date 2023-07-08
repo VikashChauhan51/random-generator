@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <SignAssembly>True</SignAssembly>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>RandomGenerator</Title>
+    <Description>A library which generates random passwords, numbers, sentences, paragraphs and texts.</Description>
+    <PackageProjectUrl>https://github.com/VikashChauhan51/random-generator</PackageProjectUrl>
+    <Authors>VikashChauhan51</Authors>
+    <Copyright>Copyright © VikashChauhan51, 2023</Copyright>
+    <RepositoryUrl>https://github.com/VikashChauhan51/random-generator</RepositoryUrl>
+    <PackageTags>random;generator;password;numbers;string;sentences;paragraphs;text;generator;password-generator;numbers-generator;string-generator;sentences-generator;paragraphs-generator;text-generator;</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <AssemblyOriginatorKeyFile>..\RandomGenerator.snk</AssemblyOriginatorKeyFile>
+    <RepositoryType>git</RepositoryType>
+    <ProjectGuid>{AFDC07BB-4642-45BC-ADC1-A46E92C2D766}</ProjectGuid>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
