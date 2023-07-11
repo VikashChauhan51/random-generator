@@ -4,7 +4,7 @@
     <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <VersionPrefix>1.1.0</VersionPrefix>
+    <VersionPrefix>1.1.1</VersionPrefix>
     <SignAssembly>True</SignAssembly>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>RandomGenerator</Title>
@@ -18,7 +18,7 @@
     <AssemblyOriginatorKeyFile>..\RandomGenerator.snk</AssemblyOriginatorKeyFile>
     <RepositoryType>git</RepositoryType>
     <RepositoryBranch>main</RepositoryBranch>
-    <RepositoryCommit>a63c20936e4f36baf8098456bdde343de0ad7185</RepositoryCommit>
+    <RepositoryCommit>12bcb00e5f35e4a3484223775bad452d13e38b45</RepositoryCommit>
     <ProjectGuid>{AFDC07BB-4642-45BC-ADC1-A46E92C2D766}</ProjectGuid>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
