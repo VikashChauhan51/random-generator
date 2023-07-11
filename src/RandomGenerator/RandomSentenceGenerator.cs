@@ -127,6 +127,12 @@ public class RandomSentenceGenerator
                     partOfSpeechs[operation]());
 
             }
+            else
+            {
+                //add random word
+                words.Add(partOfSpeechs[partOfSpeechsTypes.Last()]());
+
+            }
 
             count++;
         }
