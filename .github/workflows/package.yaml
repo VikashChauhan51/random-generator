@@ -4,9 +4,15 @@ on:
   push:
     branches: [ "main" ] 
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  NUGET_TOKEN: ${{ secrets.NUGET_APIKEY }}
+  NODE_VERSION: 19
+  DOTNET_VERSION: 7.0.x
 
 jobs:
-  build:
+  release:
+    name: release-latest
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -14,16 +20,24 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 7.0.x
+        dotnet-version: ${{ env.DOTNET_VERSION }}
     - name: Install dependencies
       run: dotnet restore
       working-directory: src
     - name: Build
       run: dotnet build --configuration Release --no-restore
       working-directory: src
-    - name: Pack
-      run: dotnet pack RandomGenerator/RandomGenerator.csproj --configuration Release --no-build --output nupkgs
-      working-directory: src
-    - name: Publish
-      run: dotnet nuget push nupkgs/*.nupkg --api-key ${{ secrets.NUGET_APIKEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
-      working-directory: src
+    - name: List directory contents
+      run: ls -al
+    - name: Setup Nodejs
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+    - name: Install dependencies
+      run: npm install
+      working-directory: ./
+    - name: Print GITHUB_SHA
+      run: echo $GITHUB_SHA
+    - name: Release
+      run: npx semantic-release
+      working-directory: ./

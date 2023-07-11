@@ -1,0 +1,32 @@
+{
+  "name": "random-generator",
+  "version": "1.0.0",
+  "author": "Vikash Chauhan",
+  "repository": "https://github.com/VikashChauhan51/random-generator.git",
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "*",
+    "@semantic-release/release-notes-generator": "*",
+    "@semantic-release/changelog": "*",
+    "@semantic-release/git": "*",
+    "@semantic-release/npm": "*",
+    "@semantic-release/github": "*",
+    "@semantic-release/exec": "*",
+    "@droidsolutions-oss/semantic-release-nuget": "*",
+    "@droidsolutions-oss/semantic-release-update-file":"*",
+    "husky": "*",
+    "node-env-run": "*",
+    "semantic-release": "*",
+    "nodemon": "*",
+    "concurrently": "*",
+    "lint-staged": "*",
+    "travis-deploy-once": "*",
+    "commitizen": "*",
+    "conventional-changelog-eslint": "*"
+  },
+  "mian": "server/index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "cd web && lint-staged"
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "branches": [
+    {
+      "name": "main"
+    },
+    {
+      "name": "pre/rc",
+      "channel": "pre/rc",
+      "prerelease": "rc"
+    },
+    {
+      "name": "beta",
+      "channel": "beta",
+      "prerelease": true
+    }
+  ],
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "eslint",
+        "releaseRules": [
+          {
+            "tag": "Breaking",
+            "release": "major"
+          },
+          {
+            "tag": "Chore",
+            "release": "minor"
+          },
+          {
+            "tag": "Fix",
+            "release": "patch"
+          },
+          {
+            "tag": "Hotfix",
+            "release": "patch"
+          },
+          {
+            "tag": "New",
+            "release": "minor"
+          },
+          {
+            "tag": "Update",
+            "release": "minor"
+          },
+          {
+            "tag": "Upgrade",
+            "release": "minor"
+          }
+        ]
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "eslint",
+        "releaseRules": [
+          {
+            "tag": "Breaking",
+            "release": "major"
+          },
+          {
+            "tag": "Chore",
+            "release": "minor"
+          },
+          {
+            "tag": "Fix",
+            "release": "patch"
+          },
+          {
+            "tag": "Hotfix",
+            "release": "patch"
+          },
+          {
+            "tag": "New",
+            "release": "minor"
+          },
+          {
+            "tag": "Update",
+            "release": "minor"
+          },
+          {
+            "tag": "Upgrade",
+            "release": "minor"
+          }
+        ]
+      }
+    ],
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ],
+    "@droidsolutions-oss/semantic-release-update-file",
+    "@semantic-release/npm",
+    "@droidsolutions-oss/semantic-release-nuget",
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "package.json",
+          "CHANGELOG.md",
+          "src/RandomGenerator/RandomGenerator.csproj"
+        ],
+        "message": "chore(release):${nextRelease.version} [skip ci]\n\n ${nextRelease.notes}"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "path": "@semantic-release/github",
+        "label": "random_generator_v${nextRelease.version}.zip",
+        "name": "random_generator_v${nextRelease.version}.zip"
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "successCmd": "echo \"RELEASE_VERSION=${nextRelease.version}\" >> $GITHUB_ENV"
+      }
+    ]
+  ],
+  "npmPublish": false,
+  "nugetServer": "https://api.nuget.org/v3/index.json",
+  "projectPath": "src/RandomGenerator/RandomGenerator.csproj",
+  "includeSymbols": true,
+  "files": [
+    {
+      "path": ["src/RandomGenerator/RandomGenerator.csproj"], 
+      "type": "xml",
+      "replacements": [
+        {
+          "key": "VersionPrefix",
+          "value": "${nextRelease.version}"
+        },
+        {
+          "key": "RepositoryCommit",
+          "value": "${GITHUB_SHA}"
+        }
+      ]
+    }
+  ]
+}
