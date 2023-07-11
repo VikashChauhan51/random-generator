@@ -1,0 +1,276 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/vik/Documents/GitHub/random-generator",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "AUTHORS.md",
+      "output": {
+        ".html": {
+          "relative_path": "AUTHORS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CODE_OF_CONDUCT.md",
+      "output": {
+        ".html": {
+          "relative_path": "CODE_OF_CONDUCT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CONTRIBUTING.md",
+      "output": {
+        ".html": {
+          "relative_path": "CONTRIBUTING.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CONTRIBUTORS.md",
+      "output": {
+        ".html": {
+          "relative_path": "CONTRIBUTORS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.Core.Adjective.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.Core.Adjective.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.Core.Adverb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.Core.Adverb.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.Core.Conjunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.Core.Conjunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.Core.Interjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.Core.Interjection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.Core.Noun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.Core.Noun.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.Core.Operations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.Core.Operations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.Core.PartOfSpeech.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.Core.PartOfSpeech.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.Core.Preposition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.Core.Preposition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.Core.Pronoun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.Core.Pronoun.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.Core.Verb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.Core.Verb.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.RandomNumberGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.RandomNumberGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.RandomParagraphGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.RandomParagraphGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.RandomPasswordGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.RandomPasswordGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.RandomSentenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.RandomSentenceGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.RandomStringGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.RandomStringGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.RandomTextGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.RandomTextGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.StringGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.StringGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RandomGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RandomGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

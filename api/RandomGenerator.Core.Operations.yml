@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: RandomGenerator.Core.Operations
+  commentId: T:RandomGenerator.Core.Operations
+  id: Operations
+  parent: RandomGenerator.Core
+  children:
+  - RandomGenerator.Core.Operations.Adjective
+  - RandomGenerator.Core.Operations.Adverb
+  - RandomGenerator.Core.Operations.Conjunction
+  - RandomGenerator.Core.Operations.Interjections
+  - RandomGenerator.Core.Operations.None
+  - RandomGenerator.Core.Operations.Object
+  - RandomGenerator.Core.Operations.Preposition
+  - RandomGenerator.Core.Operations.Subject
+  - RandomGenerator.Core.Operations.Verb
+  langs:
+  - csharp
+  - vb
+  name: Operations
+  nameWithType: Operations
+  fullName: RandomGenerator.Core.Operations
+  type: Enum
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Operations.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: Operations
+    path: src/RandomGenerator/Core/Operations.cs
+    startLine: 3
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum Operations
+    content.vb: >-
+      <Flags>
+
+      Public Enum Operations
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: RandomGenerator.Core.Operations.None
+  commentId: F:RandomGenerator.Core.Operations.None
+  id: None
+  parent: RandomGenerator.Core.Operations
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: Operations.None
+  fullName: RandomGenerator.Core.Operations.None
+  type: Field
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Operations.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: None
+    path: src/RandomGenerator/Core/Operations.cs
+    startLine: 6
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: None = 0
+    return:
+      type: RandomGenerator.Core.Operations
+- uid: RandomGenerator.Core.Operations.Subject
+  commentId: F:RandomGenerator.Core.Operations.Subject
+  id: Subject
+  parent: RandomGenerator.Core.Operations
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: Operations.Subject
+  fullName: RandomGenerator.Core.Operations.Subject
+  type: Field
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Operations.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: Subject
+    path: src/RandomGenerator/Core/Operations.cs
+    startLine: 7
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: Subject = 1
+    return:
+      type: RandomGenerator.Core.Operations
+- uid: RandomGenerator.Core.Operations.Verb
+  commentId: F:RandomGenerator.Core.Operations.Verb
+  id: Verb
+  parent: RandomGenerator.Core.Operations
+  langs:
+  - csharp
+  - vb
+  name: Verb
+  nameWithType: Operations.Verb
+  fullName: RandomGenerator.Core.Operations.Verb
+  type: Field
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Operations.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: Verb
+    path: src/RandomGenerator/Core/Operations.cs
+    startLine: 8
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: Verb = 2
+    return:
+      type: RandomGenerator.Core.Operations
+- uid: RandomGenerator.Core.Operations.Object
+  commentId: F:RandomGenerator.Core.Operations.Object
+  id: Object
+  parent: RandomGenerator.Core.Operations
+  langs:
+  - csharp
+  - vb
+  name: Object
+  nameWithType: Operations.Object
+  fullName: RandomGenerator.Core.Operations.Object
+  type: Field
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Operations.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: Object
+    path: src/RandomGenerator/Core/Operations.cs
+    startLine: 9
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: Object = 4
+    return:
+      type: RandomGenerator.Core.Operations
+- uid: RandomGenerator.Core.Operations.Adjective
+  commentId: F:RandomGenerator.Core.Operations.Adjective
+  id: Adjective
+  parent: RandomGenerator.Core.Operations
+  langs:
+  - csharp
+  - vb
+  name: Adjective
+  nameWithType: Operations.Adjective
+  fullName: RandomGenerator.Core.Operations.Adjective
+  type: Field
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Operations.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: Adjective
+    path: src/RandomGenerator/Core/Operations.cs
+    startLine: 10
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: Adjective = 8
+    return:
+      type: RandomGenerator.Core.Operations
+- uid: RandomGenerator.Core.Operations.Adverb
+  commentId: F:RandomGenerator.Core.Operations.Adverb
+  id: Adverb
+  parent: RandomGenerator.Core.Operations
+  langs:
+  - csharp
+  - vb
+  name: Adverb
+  nameWithType: Operations.Adverb
+  fullName: RandomGenerator.Core.Operations.Adverb
+  type: Field
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Operations.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: Adverb
+    path: src/RandomGenerator/Core/Operations.cs
+    startLine: 11
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: Adverb = 16
+    return:
+      type: RandomGenerator.Core.Operations
+- uid: RandomGenerator.Core.Operations.Preposition
+  commentId: F:RandomGenerator.Core.Operations.Preposition
+  id: Preposition
+  parent: RandomGenerator.Core.Operations
+  langs:
+  - csharp
+  - vb
+  name: Preposition
+  nameWithType: Operations.Preposition
+  fullName: RandomGenerator.Core.Operations.Preposition
+  type: Field
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Operations.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: Preposition
+    path: src/RandomGenerator/Core/Operations.cs
+    startLine: 12
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: Preposition = 32
+    return:
+      type: RandomGenerator.Core.Operations
+- uid: RandomGenerator.Core.Operations.Conjunction
+  commentId: F:RandomGenerator.Core.Operations.Conjunction
+  id: Conjunction
+  parent: RandomGenerator.Core.Operations
+  langs:
+  - csharp
+  - vb
+  name: Conjunction
+  nameWithType: Operations.Conjunction
+  fullName: RandomGenerator.Core.Operations.Conjunction
+  type: Field
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Operations.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: Conjunction
+    path: src/RandomGenerator/Core/Operations.cs
+    startLine: 13
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: Conjunction = 64
+    return:
+      type: RandomGenerator.Core.Operations
+- uid: RandomGenerator.Core.Operations.Interjections
+  commentId: F:RandomGenerator.Core.Operations.Interjections
+  id: Interjections
+  parent: RandomGenerator.Core.Operations
+  langs:
+  - csharp
+  - vb
+  name: Interjections
+  nameWithType: Operations.Interjections
+  fullName: RandomGenerator.Core.Operations.Interjections
+  type: Field
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Operations.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: Interjections
+    path: src/RandomGenerator/Core/Operations.cs
+    startLine: 14
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: Interjections = 128
+    return:
+      type: RandomGenerator.Core.Operations
+references:
+- uid: RandomGenerator.Core
+  commentId: N:RandomGenerator.Core
+  href: RandomGenerator.html
+  name: RandomGenerator.Core
+  nameWithType: RandomGenerator.Core
+  fullName: RandomGenerator.Core
+  spec.csharp:
+  - uid: RandomGenerator
+    name: RandomGenerator
+    href: RandomGenerator.html
+  - name: .
+  - uid: RandomGenerator.Core
+    name: Core
+    href: RandomGenerator.Core.html
+  spec.vb:
+  - uid: RandomGenerator
+    name: RandomGenerator
+    href: RandomGenerator.html
+  - name: .
+  - uid: RandomGenerator.Core
+    name: Core
+    href: RandomGenerator.Core.html
+- uid: RandomGenerator.Core.Operations
+  commentId: T:RandomGenerator.Core.Operations
+  parent: RandomGenerator.Core
+  href: RandomGenerator.Core.Operations.html
+  name: Operations
+  nameWithType: Operations
+  fullName: RandomGenerator.Core.Operations

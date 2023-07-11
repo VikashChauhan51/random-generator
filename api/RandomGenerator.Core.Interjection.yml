@@ -1,0 +1,739 @@
+### YamlMime:ManagedReference
+items:
+- uid: RandomGenerator.Core.Interjection
+  commentId: T:RandomGenerator.Core.Interjection
+  id: Interjection
+  parent: RandomGenerator.Core
+  children:
+  - RandomGenerator.Core.Interjection.#ctor
+  - RandomGenerator.Core.Interjection.#ctor(System.Collections.Generic.IEnumerable{System.String})
+  - RandomGenerator.Core.Interjection.GetPart(System.Int32)
+  - RandomGenerator.Core.Interjection.GetParts
+  - RandomGenerator.Core.Interjection.GetRandomPart
+  - RandomGenerator.Core.Interjection.Length
+  langs:
+  - csharp
+  - vb
+  name: Interjection
+  nameWithType: Interjection
+  fullName: RandomGenerator.Core.Interjection
+  type: Class
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Interjection.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: Interjection
+    path: src/RandomGenerator/Core/Interjection.cs
+    startLine: 3
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: 'public class Interjection : PartOfSpeech'
+    content.vb: Public Class Interjection Inherits PartOfSpeech
+  inheritance:
+  - System.Object
+  - RandomGenerator.Core.PartOfSpeech
+  inheritedMembers:
+  - RandomGenerator.Core.PartOfSpeech.random
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: RandomGenerator.Core.Interjection.Length
+  commentId: P:RandomGenerator.Core.Interjection.Length
+  id: Length
+  parent: RandomGenerator.Core.Interjection
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: Interjection.Length
+  fullName: RandomGenerator.Core.Interjection.Length
+  type: Property
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Interjection.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: Length
+    path: src/RandomGenerator/Core/Interjection.cs
+    startLine: 6
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  example: []
+  syntax:
+    content: public override int Length { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property Length As Integer
+  overridden: RandomGenerator.Core.PartOfSpeech.Length
+  overload: RandomGenerator.Core.Interjection.Length*
+- uid: RandomGenerator.Core.Interjection.#ctor
+  commentId: M:RandomGenerator.Core.Interjection.#ctor
+  id: '#ctor'
+  parent: RandomGenerator.Core.Interjection
+  langs:
+  - csharp
+  - vb
+  name: Interjection()
+  nameWithType: Interjection.Interjection()
+  fullName: RandomGenerator.Core.Interjection.Interjection()
+  type: Constructor
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Interjection.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: .ctor
+    path: src/RandomGenerator/Core/Interjection.cs
+    startLine: 7
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: public Interjection()
+    content.vb: Public Sub New()
+  overload: RandomGenerator.Core.Interjection.#ctor*
+  nameWithType.vb: Interjection.New()
+  fullName.vb: RandomGenerator.Core.Interjection.New()
+  name.vb: New()
+- uid: RandomGenerator.Core.Interjection.#ctor(System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:RandomGenerator.Core.Interjection.#ctor(System.Collections.Generic.IEnumerable{System.String})
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.String})'
+  parent: RandomGenerator.Core.Interjection
+  langs:
+  - csharp
+  - vb
+  name: Interjection(IEnumerable<string>)
+  nameWithType: Interjection.Interjection(IEnumerable<string>)
+  fullName: RandomGenerator.Core.Interjection.Interjection(System.Collections.Generic.IEnumerable<string>)
+  type: Constructor
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Interjection.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: .ctor
+    path: src/RandomGenerator/Core/Interjection.cs
+    startLine: 50
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  syntax:
+    content: public Interjection(IEnumerable<string> nouns)
+    parameters:
+    - id: nouns
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Sub New(nouns As IEnumerable(Of String))
+  overload: RandomGenerator.Core.Interjection.#ctor*
+  nameWithType.vb: Interjection.New(IEnumerable(Of String))
+  fullName.vb: RandomGenerator.Core.Interjection.New(System.Collections.Generic.IEnumerable(Of String))
+  name.vb: New(IEnumerable(Of String))
+- uid: RandomGenerator.Core.Interjection.GetPart(System.Int32)
+  commentId: M:RandomGenerator.Core.Interjection.GetPart(System.Int32)
+  id: GetPart(System.Int32)
+  parent: RandomGenerator.Core.Interjection
+  langs:
+  - csharp
+  - vb
+  name: GetPart(int)
+  nameWithType: Interjection.GetPart(int)
+  fullName: RandomGenerator.Core.Interjection.GetPart(int)
+  type: Method
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Interjection.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: GetPart
+    path: src/RandomGenerator/Core/Interjection.cs
+    startLine: 54
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  example: []
+  syntax:
+    content: public override string GetPart(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Overrides Function GetPart(index As Integer) As String
+  overridden: RandomGenerator.Core.PartOfSpeech.GetPart(System.Int32)
+  overload: RandomGenerator.Core.Interjection.GetPart*
+  nameWithType.vb: Interjection.GetPart(Integer)
+  fullName.vb: RandomGenerator.Core.Interjection.GetPart(Integer)
+  name.vb: GetPart(Integer)
+- uid: RandomGenerator.Core.Interjection.GetParts
+  commentId: M:RandomGenerator.Core.Interjection.GetParts
+  id: GetParts
+  parent: RandomGenerator.Core.Interjection
+  langs:
+  - csharp
+  - vb
+  name: GetParts()
+  nameWithType: Interjection.GetParts()
+  fullName: RandomGenerator.Core.Interjection.GetParts()
+  type: Method
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Interjection.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: GetParts
+    path: src/RandomGenerator/Core/Interjection.cs
+    startLine: 55
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  example: []
+  syntax:
+    content: public override IEnumerable<string> GetParts()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Overrides Function GetParts() As IEnumerable(Of String)
+  overridden: RandomGenerator.Core.PartOfSpeech.GetParts
+  overload: RandomGenerator.Core.Interjection.GetParts*
+- uid: RandomGenerator.Core.Interjection.GetRandomPart
+  commentId: M:RandomGenerator.Core.Interjection.GetRandomPart
+  id: GetRandomPart
+  parent: RandomGenerator.Core.Interjection
+  langs:
+  - csharp
+  - vb
+  name: GetRandomPart()
+  nameWithType: Interjection.GetRandomPart()
+  fullName: RandomGenerator.Core.Interjection.GetRandomPart()
+  type: Method
+  source:
+    remote:
+      path: src/RandomGenerator/Core/Interjection.cs
+      branch: main
+      repo: https://github.com/VikashChauhan51/random-generator.git
+    id: GetRandomPart
+    path: src/RandomGenerator/Core/Interjection.cs
+    startLine: 57
+  assemblies:
+  - RandomGenerator
+  namespace: RandomGenerator.Core
+  example: []
+  syntax:
+    content: public override string GetRandomPart()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function GetRandomPart() As String
+  overridden: RandomGenerator.Core.PartOfSpeech.GetRandomPart
+  overload: RandomGenerator.Core.Interjection.GetRandomPart*
+references:
+- uid: RandomGenerator.Core
+  commentId: N:RandomGenerator.Core
+  href: RandomGenerator.html
+  name: RandomGenerator.Core
+  nameWithType: RandomGenerator.Core
+  fullName: RandomGenerator.Core
+  spec.csharp:
+  - uid: RandomGenerator
+    name: RandomGenerator
+    href: RandomGenerator.html
+  - name: .
+  - uid: RandomGenerator.Core
+    name: Core
+    href: RandomGenerator.Core.html
+  spec.vb:
+  - uid: RandomGenerator
+    name: RandomGenerator
+    href: RandomGenerator.html
+  - name: .
+  - uid: RandomGenerator.Core
+    name: Core
+    href: RandomGenerator.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: RandomGenerator.Core.PartOfSpeech
+  commentId: T:RandomGenerator.Core.PartOfSpeech
+  parent: RandomGenerator.Core
+  href: RandomGenerator.Core.PartOfSpeech.html
+  name: PartOfSpeech
+  nameWithType: PartOfSpeech
+  fullName: RandomGenerator.Core.PartOfSpeech
+- uid: RandomGenerator.Core.PartOfSpeech.random
+  commentId: F:RandomGenerator.Core.PartOfSpeech.random
+  parent: RandomGenerator.Core.PartOfSpeech
+  href: RandomGenerator.Core.PartOfSpeech.html#RandomGenerator.Core.PartOfSpeech.random
+  name: random
+  nameWithType: PartOfSpeech.random
+  fullName: RandomGenerator.Core.PartOfSpeech.random
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RandomGenerator.Core.PartOfSpeech.Length
+  commentId: P:RandomGenerator.Core.PartOfSpeech.Length
+  parent: RandomGenerator.Core.PartOfSpeech
+  href: RandomGenerator.Core.PartOfSpeech.html#RandomGenerator.Core.PartOfSpeech.Length
+  name: Length
+  nameWithType: PartOfSpeech.Length
+  fullName: RandomGenerator.Core.PartOfSpeech.Length
+- uid: RandomGenerator.Core.Interjection.Length*
+  commentId: Overload:RandomGenerator.Core.Interjection.Length
+  href: RandomGenerator.Core.Interjection.html#RandomGenerator.Core.Interjection.Length
+  name: Length
+  nameWithType: Interjection.Length
+  fullName: RandomGenerator.Core.Interjection.Length
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: RandomGenerator.Core.Interjection.#ctor*
+  commentId: Overload:RandomGenerator.Core.Interjection.#ctor
+  href: RandomGenerator.Core.Interjection.html#RandomGenerator.Core.Interjection.#ctor
+  name: Interjection
+  nameWithType: Interjection.Interjection
+  fullName: RandomGenerator.Core.Interjection.Interjection
+  nameWithType.vb: Interjection.New
+  fullName.vb: RandomGenerator.Core.Interjection.New
+  name.vb: New
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: RandomGenerator.Core.PartOfSpeech.GetPart(System.Int32)
+  commentId: M:RandomGenerator.Core.PartOfSpeech.GetPart(System.Int32)
+  parent: RandomGenerator.Core.PartOfSpeech
+  isExternal: true
+  href: RandomGenerator.Core.PartOfSpeech.html#RandomGenerator.Core.PartOfSpeech.GetPart(System.Int32)
+  name: GetPart(int)
+  nameWithType: PartOfSpeech.GetPart(int)
+  fullName: RandomGenerator.Core.PartOfSpeech.GetPart(int)
+  nameWithType.vb: PartOfSpeech.GetPart(Integer)
+  fullName.vb: RandomGenerator.Core.PartOfSpeech.GetPart(Integer)
+  name.vb: GetPart(Integer)
+  spec.csharp:
+  - uid: RandomGenerator.Core.PartOfSpeech.GetPart(System.Int32)
+    name: GetPart
+    href: RandomGenerator.Core.PartOfSpeech.html#RandomGenerator.Core.PartOfSpeech.GetPart(System.Int32)
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: RandomGenerator.Core.PartOfSpeech.GetPart(System.Int32)
+    name: GetPart
+    href: RandomGenerator.Core.PartOfSpeech.html#RandomGenerator.Core.PartOfSpeech.GetPart(System.Int32)
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: RandomGenerator.Core.Interjection.GetPart*
+  commentId: Overload:RandomGenerator.Core.Interjection.GetPart
+  href: RandomGenerator.Core.Interjection.html#RandomGenerator.Core.Interjection.GetPart(System.Int32)
+  name: GetPart
+  nameWithType: Interjection.GetPart
+  fullName: RandomGenerator.Core.Interjection.GetPart
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: RandomGenerator.Core.PartOfSpeech.GetParts
+  commentId: M:RandomGenerator.Core.PartOfSpeech.GetParts
+  parent: RandomGenerator.Core.PartOfSpeech
+  href: RandomGenerator.Core.PartOfSpeech.html#RandomGenerator.Core.PartOfSpeech.GetParts
+  name: GetParts()
+  nameWithType: PartOfSpeech.GetParts()
+  fullName: RandomGenerator.Core.PartOfSpeech.GetParts()
+  spec.csharp:
+  - uid: RandomGenerator.Core.PartOfSpeech.GetParts
+    name: GetParts
+    href: RandomGenerator.Core.PartOfSpeech.html#RandomGenerator.Core.PartOfSpeech.GetParts
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: RandomGenerator.Core.PartOfSpeech.GetParts
+    name: GetParts
+    href: RandomGenerator.Core.PartOfSpeech.html#RandomGenerator.Core.PartOfSpeech.GetParts
+  - name: (
+  - name: )
+- uid: RandomGenerator.Core.Interjection.GetParts*
+  commentId: Overload:RandomGenerator.Core.Interjection.GetParts
+  href: RandomGenerator.Core.Interjection.html#RandomGenerator.Core.Interjection.GetParts
+  name: GetParts
+  nameWithType: Interjection.GetParts
+  fullName: RandomGenerator.Core.Interjection.GetParts
+- uid: RandomGenerator.Core.PartOfSpeech.GetRandomPart
+  commentId: M:RandomGenerator.Core.PartOfSpeech.GetRandomPart
+  parent: RandomGenerator.Core.PartOfSpeech
+  href: RandomGenerator.Core.PartOfSpeech.html#RandomGenerator.Core.PartOfSpeech.GetRandomPart
+  name: GetRandomPart()
+  nameWithType: PartOfSpeech.GetRandomPart()
+  fullName: RandomGenerator.Core.PartOfSpeech.GetRandomPart()
+  spec.csharp:
+  - uid: RandomGenerator.Core.PartOfSpeech.GetRandomPart
+    name: GetRandomPart
+    href: RandomGenerator.Core.PartOfSpeech.html#RandomGenerator.Core.PartOfSpeech.GetRandomPart
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: RandomGenerator.Core.PartOfSpeech.GetRandomPart
+    name: GetRandomPart
+    href: RandomGenerator.Core.PartOfSpeech.html#RandomGenerator.Core.PartOfSpeech.GetRandomPart
+  - name: (
+  - name: )
+- uid: RandomGenerator.Core.Interjection.GetRandomPart*
+  commentId: Overload:RandomGenerator.Core.Interjection.GetRandomPart
+  href: RandomGenerator.Core.Interjection.html#RandomGenerator.Core.Interjection.GetRandomPart
+  name: GetRandomPart
+  nameWithType: Interjection.GetRandomPart
+  fullName: RandomGenerator.Core.Interjection.GetRandomPart
