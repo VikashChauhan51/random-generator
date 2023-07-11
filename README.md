@@ -12,6 +12,7 @@ Install via NuGet: ``` Install-Package RandomGenerator ```
 
 It is Compatible with .NET **Core 6.0+**.
 
+[Documents](https://vikashchauhan51.github.io/random-generator/api/RandomGenerator.html)
 ## Basic usage
 
 ```C#
