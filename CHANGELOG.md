@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/VikashChauhan51/random-generator/compare/v1.1.0...v1.1.1) (2023-07-11)
+
+
+### Fix
+
+* docs ([12bcb00](https://github.com/VikashChauhan51/random-generator/commit/12bcb00e5f35e4a3484223775bad452d13e38b45))
+
 # [1.1.0](https://github.com/VikashChauhan51/random-generator/compare/v1.0.0...v1.1.0) (2023-07-11)
 
 
