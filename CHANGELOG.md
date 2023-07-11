@@ -1,3 +1,14 @@
+# [1.1.0](https://github.com/VikashChauhan51/random-generator/compare/v1.0.0...v1.1.0) (2023-07-11)
+
+
+### Fix
+
+* fixed random sentence generator length ([4e268b8](https://github.com/VikashChauhan51/random-generator/commit/4e268b8ff7c290ff348a33b86fbfa940a94d3655))
+
+### New
+
+* Random generate unique number ([a644c57](https://github.com/VikashChauhan51/random-generator/commit/a644c576f1032b932a31f948a6b39b99af58ed60))
+
 # 1.0.0 (2023-07-11)
 
 
