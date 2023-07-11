@@ -18,7 +18,7 @@
     <AssemblyOriginatorKeyFile>..\RandomGenerator.snk</AssemblyOriginatorKeyFile>
     <RepositoryType>git</RepositoryType>
     <RepositoryBranch>main</RepositoryBranch>
-    <RepositoryCommit>2f76aa7dc6f402941f1fd2fbe1f1c078914c2bf6</RepositoryCommit>
+    <RepositoryCommit>c02169d3bd3e8cd89e5c355e00bb33c3b6f036e8</RepositoryCommit>
     <ProjectGuid>{AFDC07BB-4642-45BC-ADC1-A46E92C2D766}</ProjectGuid>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>

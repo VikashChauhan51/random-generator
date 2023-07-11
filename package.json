@@ -12,7 +12,7 @@
     "@semantic-release/github": "*",
     "@semantic-release/exec": "*",
     "@droidsolutions-oss/semantic-release-nuget": "*",
-    "@droidsolutions-oss/semantic-release-update-file":"*",
+    "@droidsolutions-oss/semantic-release-update-file": "*",
     "husky": "*",
     "node-env-run": "*",
     "semantic-release": "*",
