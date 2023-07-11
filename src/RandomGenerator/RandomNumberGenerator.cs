@@ -53,4 +53,11 @@ public class RandomNumberGenerator
         return Math.Abs(BitConverter.ToDouble(buffer, 0));
     }
 
+    public static long Number()
+    {
+        long num = (Long(1, long.MaxValue) + DateTime.Now.Ticks);
+        long number = num % long.MaxValue;
+        return Math.Abs(number);
+    }
+
 }

@@ -1,7 +1,7 @@
 # RandomGenerator
 A library which generates random passwords, numbers, sentences, paragraphs and texts.
 
-![RandomGenerator Logo](https://github.com/VikashChauhan51/random-generator/blob/main/src/RandomGenerator/RandomGenerator/icon.png "RandomGenerator Logo")
+![RandomGenerator Logo](https://github.com/VikashChauhan51/random-generator/blob/main/icon.png "RandomGenerator Logo")
 ## NuGet
 
 Install via NuGet: ``` Install-Package RandomGenerator ```
@@ -72,6 +72,12 @@ RandomNumberGenerator.AbsoluteNumber(10);
 // this function can generate a random number of length between 1 to 19.
 RandomNumberGenerator.AbsoluteLong(10);
 ```
+
+```C#
+// generate random unique number.
+RandomNumberGenerator.Number();
+```
+
 ```C#
 // generate random password of specific length with configuration.
 var password = new RandomPasswordGenerator()

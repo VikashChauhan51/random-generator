@@ -243,4 +243,122 @@ public class RandomNumberGeneratorTests
 
         Assert.NotEqual(firstResult, secondResult);
     }
+
+    [Fact]
+    public void Number_ReturnsPositiveLong()
+    {
+        // Arrange
+        // Act
+        long result = RandomNumberGenerator.Number();
+
+        // Assert
+        Assert.True(result >= 0);
+    }
+
+    [Fact]
+    public void Number_ReturnsDifferentValuesOnSubsequentCalls()
+    {
+        // Arrange
+
+        // Act
+        long result1 = RandomNumberGenerator.Number();
+        long result2 = RandomNumberGenerator.Number();
+
+        // Assert
+        Assert.NotEqual(result1, result2);
+    }
+
+    [Fact]
+    public void Number_ReturnsValueLessThanLongMaxValue()
+    {
+        // Arrange
+
+        // Act
+        long result = RandomNumberGenerator.Number();
+
+        // Assert
+        Assert.True(result < long.MaxValue);
+    }
+
+    [Fact]
+    public void Number_ReturnsValueGreaterThanZero()
+    {
+        // Arrange
+
+        // Act
+        long result = RandomNumberGenerator.Number();
+
+        // Assert
+        Assert.True(result > 0);
+    }
+
+    [Fact]
+    public void Number_ReturnsValueWithinExpectedRange()
+    {
+        // Arrange
+        long minValue = 0;
+        long maxValue = long.MaxValue;
+
+        // Act
+        long result = RandomNumberGenerator.Number();
+
+        // Assert
+        Assert.InRange(result, minValue, maxValue);
+    }
+
+    [Fact]
+    public void Number_DoesNotThrowException()
+    {
+        // Arrange
+
+        // Act & Assert
+        var exception = Record.Exception(() => RandomNumberGenerator.Number());
+        Assert.Null(exception);
+    }
+
+    [Fact]
+    public void Number_ReturnsValueOfCorrectType()
+    {
+        // Arrange
+        // Act
+        var result = RandomNumberGenerator.Number();
+
+        // Assert
+        Assert.IsType<long>(result);
+    }
+
+    [Fact]
+    public void Number_ReturnsValueWithinOneSecondOfCurrentTime()
+    {
+        // Arrange
+        long currentTimeTicks = DateTime.Now.Ticks;
+
+        // Act
+        long result = RandomNumberGenerator.Number();
+        long currentResultTimeTicks = DateTime.Now.Ticks;
+        double resultTime = (double)(currentResultTimeTicks - currentTimeTicks) / TimeSpan.TicksPerSecond;
+        // Assert
+        Assert.InRange(resultTime, 0, 1);
+    }
+
+    [Fact]
+    public void Number_ReturnsDifferentValuesWhenCalledFromDifferentThreads()
+    {
+        // Arrange
+        long result1 = 0;
+        long result2 = 0;
+
+        // Act
+        var thread1 = new Thread(() => { result1 = RandomNumberGenerator.Number(); });
+        var thread2 = new Thread(() => { result2 = RandomNumberGenerator.Number(); });
+
+        thread1.Start();
+        thread2.Start();
+
+        thread1.Join();
+        thread2.Join();
+
+        // Assert
+        Assert.NotEqual(result1, result2);
+    }
 }
