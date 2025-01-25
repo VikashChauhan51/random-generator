@@ -4,29 +4,32 @@
   "author": "Vikash Chauhan",
   "repository": "https://github.com/VikashChauhan51/random-generator.git",
   "devDependencies": {
-    "@semantic-release/commit-analyzer": "*",
-    "@semantic-release/release-notes-generator": "*",
-    "@semantic-release/changelog": "*",
-    "@semantic-release/git": "*",
-    "@semantic-release/npm": "*",
-    "@semantic-release/github": "*",
-    "@semantic-release/exec": "*",
     "@droidsolutions-oss/semantic-release-nuget": "*",
     "@droidsolutions-oss/semantic-release-update-file": "*",
-    "husky": "*",
-    "node-env-run": "*",
-    "semantic-release": "*",
-    "nodemon": "*",
-    "concurrently": "*",
-    "lint-staged": "*",
-    "travis-deploy-once": "*",
+    "@semantic-release/changelog": "*",
+    "@semantic-release/commit-analyzer": "*",
+    "@semantic-release/exec": "*",
+    "@semantic-release/git": "*",
+    "@semantic-release/github": "*",
+    "@semantic-release/npm": "*",
+    "@semantic-release/release-notes-generator": "*",
     "commitizen": "*",
-    "conventional-changelog-eslint": "*"
+    "concurrently": "*",
+    "conventional-changelog-eslint": "*",
+    "husky": "*",
+    "lint-staged": "*",
+    "node-env-run": "*",
+    "nodemon": "*",
+    "semantic-release": "*",
+    "travis-deploy-once": "*"
   },
   "mian": "server/index.js",
   "husky": {
     "hooks": {
       "pre-commit": "cd web && lint-staged"
     }
+  },
+  "dependencies": {
+    "random-generator": "file:"
   }
 }
