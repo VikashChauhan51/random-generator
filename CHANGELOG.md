@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/VikashChauhan51/random-generator/compare/v1.1.1...v1.2.0) (2025-01-25)
+
+
+### Fix
+
+* build template ([615cd47](https://github.com/VikashChauhan51/random-generator/commit/615cd47579d0f1d2f9247b9f7c60b0bc2dc04929))
+* upgraded to 9 ([1647272](https://github.com/VikashChauhan51/random-generator/commit/1647272519095cfdff22ade97b3045af1e3e2fca))
+
+### Update
+
+* fixed version ([67d7f3b](https://github.com/VikashChauhan51/random-generator/commit/67d7f3bc3875941a13518845aa88355bf2a3123c))
+
 ## [1.1.1](https://github.com/VikashChauhan51/random-generator/compare/v1.1.0...v1.1.1) (2023-07-11)
 
 
